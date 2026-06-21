@@ -1,8 +1,5 @@
 """Calculator module with style violations."""
 
-import os
-import sys
-
 
 def add(a, b):
     x = a + b
