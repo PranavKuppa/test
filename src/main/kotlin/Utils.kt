@@ -1,7 +1,3 @@
-fun square(value: Int): Int {
-    return value * value
-}
+fun square(value: Int): Int = value * value
 
-fun isEven(value: Int): Boolean {
-    return value % 2 == 0
-}
+fun isEven(value: Int): Boolean = value % 2 == 0
