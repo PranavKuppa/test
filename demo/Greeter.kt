@@ -1,3 +1,1 @@
-fun greet(name:String):String{
-return "Hi, "+name
-}
+fun greet(name: String): String = "Hi, " + name
