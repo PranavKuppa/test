@@ -9,4 +9,3 @@ def square(value: int) -> int:
 def is_even(value: int) -> bool:
     """Return True if value is even."""
     return value % 2 == 0
-
