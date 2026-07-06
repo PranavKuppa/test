@@ -4,7 +4,7 @@
 - **Branch:** `my-test`
 - **Commit:** `40438fc` (`40438fc1b9b1f82ba8d4a31d5b00b88944acb213`)
 - **Scan scope:** Entire branch — every file in the branch was scanned (full scan)
-- **File:** `test2.py`
+- **File:** `test3.py`
 - **Run completed (UTC):** 2026-07-06 10:25
 
 This report is written for you, the repository owner. It summarizes in plain English what the automated code-healing agent did on this commit.
@@ -21,7 +21,7 @@ Open the link above to review and merge it yourself in GitHub — the agent open
 
 Normalized formatting/style on 1 file:
 
-- `test2.py`
+- `test3.py`
 
 The agent verified that these formatting changes did **not** alter how your code behaves before keeping them.
 
@@ -41,7 +41,7 @@ No tests needed healing — your suite still passed after the formatting and lin
 
 Every line the agent changed — the original code, the updated code, and why:
 
-### test2.py, line 1
+### test3.py, line 1
 
 **Before:**
 
@@ -57,19 +57,19 @@ def add(a, b):
 ```
 **Why:** E231 — missing whitespace after ','; E225 — missing whitespace around operator
 
-### test2.py, line 7
+### test3.py, line 7
 
 **Before:** `    return a -b`
 **After:** `    return a - b`
 **Why:** E225 — missing whitespace around operator
 
-### test2.py, line 12
+### test3.py, line 12
 
 **Before:** `        self.name=name`
 **After:** `        self.name = name`
 **Why:** E225 — missing whitespace around operator
 
-### test2.py, line 15
+### test3.py, line 15
 
 **Before:**
 
@@ -86,7 +86,7 @@ def add(a, b):
 ```
 **Why:** E225 — missing whitespace around operator; E222 — multiple spaces after operator; W293 — blank line contains whitespace
 
-### test2.py, line 18
+### test3.py, line 18
 
 **Before:**
 
@@ -101,13 +101,13 @@ def add(a, b):
 ```
 **Why:** E231 — missing whitespace after ','; E225 — missing whitespace around operator
 
-### test2.py, line 21
+### test3.py, line 21
 
 **Before:** `    assert subtract(5,2) ==3`
 **After:** `    assert subtract(5, 2) == 3`
 **Why:** E231 — missing whitespace after ','; E225 — missing whitespace around operator
 
-### test2.py, line 25
+### test3.py, line 25
 
 **Before:**
 
