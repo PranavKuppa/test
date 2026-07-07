@@ -1,15 +1,10 @@
-import os
-
-
-
-
 def add(a, b):
-    x = a +b
+    x = a + b
     return x
 
 
 def subtract(a, b):
-    return a- b
+    return a - b
 
 
 class Calculator:
@@ -21,13 +16,13 @@ class Calculator:
 
 
 def test_add():
-    assert add(2,3) == 5
+    assert add(2, 3) == 5
 
 
 def test_subtract():
-    assert subtract(5, 2)== 3
+    assert subtract(5, 2) == 3
 
 
 def test_multiply():
-    calc = Calculator("test"    )
-    assert calc.multiply(3, 4) ==12
+    calc = Calculator("test")
+    assert calc.multiply(3, 4) == 12
